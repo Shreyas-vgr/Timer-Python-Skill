@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "timer skill",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SetTimerIntent",
+                    "slots": [
+                        {
+                            "name": "duration",
+                            "type": "AMAZON.DURATION"
+                        }
+                    ],
+                    "samples": [
+                        "{duration} timer",
+                        "set timer of {duration}",
+                        "set a timer of {duration}",
+                        "set up timer of {duration}",
+                        "set up a timer of {duration}",
+                        "create timer of {duration}",
+                        "create a timer of {duration}",
+                        "i want a timer of {duration}",
+                        "timer of {duration}",
+                        "timer",
+                        "i want a timer",
+                        "set timer",
+                        "set a timer",
+                        "create a timer"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  
